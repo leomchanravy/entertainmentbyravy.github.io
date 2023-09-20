@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   overflow: hidden;
+   background-color: black;
+   
+}
+header a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+header a.right {
+    float: right;
+}
+header a:hover {
+    background-color: white;
+    color: black;
+}
+nav {
+    font-family: kunlen ;
+    text-align: center;
+    background: url(view-3d-cinema-elements.jpg);
+    background-size: cover;
+    color: rgb(98, 98, 98);
+    padding: 50px;
+    
+
+}
+nav h1 {
+    font-size: 4em;
+}
+nav img {
+    width: 200px;
+}
+main {
+    background-color: aquamarine;
+    padding: 100px;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+footer p {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+}
+}
+@media screen and (max-width: 400px) {
+    .navbar a {
+    float: none;
+    width: 100%;
+}
+}
